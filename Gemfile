@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 # HTML, CSS, and JavaScript framework for developing responsive
-gem 'bootstrap', '~> 4.1.1'
+gem 'bootstrap', '~> 4.3.1'
 # Provides jQuery and the jQuery-ujs driver for your Rails 4+ application
 gem 'jquery-rails'
 # Provides the Font-Awesome web fonts and stylesheets as a Rails engine
