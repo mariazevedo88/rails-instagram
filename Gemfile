@@ -10,11 +10,11 @@ gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.12'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.1', '>= 5.1.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -24,11 +24,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # HTML, CSS, and JavaScript framework for developing responsive
 gem 'bootstrap', '~> 4.3.1'
 # Provides jQuery and the jQuery-ujs driver for your Rails 4+ application
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.5'
 # Provides the Font-Awesome web fonts and stylesheets as a Rails engine
-gem 'font-awesome-rails'
+gem 'font-awesome-rails', '>= 4.7.0.5'
 # Flexible authentication solution for Rails with Warden
-gem 'devise'
+gem 'devise', '>= 4.7.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -37,12 +37,12 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 3.7.0'
 end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 2.15'
+  gem 'capybara', '>= 3.30.0'
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
