@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
+gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 # Ruby interface to the {PostgreSQL RDBMS}
 gem 'pg'
 # Use Puma as the app server
@@ -18,13 +18,13 @@ gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'
+gem 'jbuilder', '~> 2.9', '>= 2.9.1'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 # HTML, CSS, and JavaScript framework for developing responsive
 gem 'bootstrap', '~> 4.3.1'
 # Provides jQuery and the jQuery-ujs driver for your Rails 4+ application
-gem 'jquery-rails', '>= 4.3.5'
+gem 'jquery-rails', '>= 4.4.0'
 # Provides the Font-Awesome web fonts and stylesheets as a Rails engine
 gem 'font-awesome-rails', '>= 4.7.0.5'
 # Flexible authentication solution for Rails with Warden
