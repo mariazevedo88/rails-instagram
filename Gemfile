@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.7'
 # Ruby interface to the {PostgreSQL RDBMS}
 gem 'pg'
 # Use Puma as the app server
@@ -26,9 +26,9 @@ gem 'bootstrap', '~> 4.3.1'
 # Provides jQuery and the jQuery-ujs driver for your Rails 4+ application
 gem 'jquery-rails', '>= 4.4.0'
 # Provides the Font-Awesome web fonts and stylesheets as a Rails engine
-gem 'font-awesome-rails', '>= 4.7.0.5'
+gem 'font-awesome-rails', '>= 4.7.0.6'
 # Flexible authentication solution for Rails with Warden
-gem 'devise', '>= 4.7.2'
+gem 'devise', '>= 4.7.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
