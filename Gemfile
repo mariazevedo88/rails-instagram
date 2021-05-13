@@ -8,7 +8,7 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.7'
 # Ruby interface to the {PostgreSQL RDBMS}
 gem 'pg'
 # Use Puma as the app server
-gem 'puma', '~> 3.12', '>= 3.12.6'
+gem 'puma', '~> 4.3', '>= 4.3.8'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.1', '>= 5.1.0'
 # Use Uglifier as compressor for JavaScript assets
