@@ -26,9 +26,9 @@ gem 'bootstrap', '~> 4.3.1'
 # Provides jQuery and the jQuery-ujs driver for your Rails 4+ application
 gem 'jquery-rails', '>= 4.4.0'
 # Provides the Font-Awesome web fonts and stylesheets as a Rails engine
-gem 'font-awesome-rails', '>= 4.7.0.6'
+gem 'font-awesome-rails', '>= 4.7.0.7'
 # Flexible authentication solution for Rails with Warden
-gem 'devise', '>= 4.7.3'
+gem 'devise', '>= 4.8.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -37,12 +37,12 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'web-console', '>= 3.7.0'
+  gem 'web-console', '>= 4.1.0'
 end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 3.32.2'
+  gem 'capybara', '>= 3.34.0'
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper', '>= 2.1.1'
